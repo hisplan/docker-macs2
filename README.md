@@ -1,2 +1,14 @@
 # docker-macs2
-Dockerized MACS2
+
+## Building
+
+```bash
+$ docker build -t macs2 .
+```
+
+## Running
+
+```bash
+$ docker run -it --rm macs2
+```
+
