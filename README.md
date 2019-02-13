@@ -13,4 +13,3 @@ $ docker build -t macs2 .
 ```bash
 $ docker run -it --rm macs2
 ```
-
