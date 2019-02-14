@@ -1,6 +1,7 @@
 FROM python:2.7
 
 LABEL maintainer="Jaeyoung Chun (chunj@mskcc.org)" \
+      version.macs="2.1.2.1" \
       source.macs="https://pypi.org/project/MACS2/"
 
 ENV MACS2_VERSION=2.1.2.1
