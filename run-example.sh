@@ -4,7 +4,6 @@ prefix="possorted"
 bedfile="possorted.shifted.bed"
 
 docker run \
-    -a stderr -a stdout \
     -v $PWD/examples/:/examples \
     macs2 callpeak \
         -t /examples/${bedfile} \
