@@ -3,7 +3,7 @@
 prefix="possorted"
 bedfile="possorted.shifted.bed"
 
-docker run \
+docker run -it --rm \
     -v $PWD/examples/:/examples \
     macs2 callpeak \
         -t /examples/${bedfile} \
